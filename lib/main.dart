@@ -11,8 +11,8 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://cdn.eso.org/images/thumb700x/eso1907a.jpg'),
+            image: AssetImage(
+                'images/diamond.png'),
           ),
         ),
       ),
